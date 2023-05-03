@@ -1,0 +1,19 @@
+.container {
+	font-size: 1rem;
+	font-weight: 500;
+	width: 100vw;
+}
+
+.navbarList {
+	display: flex;
+	justify-content: center;
+}
+
+.navbarList li {
+	list-style: none;
+	margin: 0 3rem;
+}
+
+.navbarList li:hover {
+	cursor: pointer;
+}
