@@ -1,9 +1,10 @@
+import React from "react";
 import AboutCss from "./About.module.css";
 import PortfolioPic from "../../../assets/ERIKPORTFOLIO.jpg";
 
-const About = () => {
+const About = React.forwardRef((props, ref) => {
 	return (
-		<div className={AboutCss.container}>
+		<div className={AboutCss.container} ref={ref}>
 			<div className={AboutCss.containerHeadings}>
 				<h2>ABOUT ME</h2>
 				<h4>EXPERIENCE AND BACKGROUND</h4>
@@ -23,6 +24,6 @@ const About = () => {
 			</div>
 		</div>
 	);
-};
+});
 
 export default About;

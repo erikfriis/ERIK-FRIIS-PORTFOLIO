@@ -6,7 +6,7 @@ const CodeLabsCardContainer = () => {
 	return (
 		<div className={CodeLabsCardContainerCss.container}>
 			{codeLabs.map((lab) => (
-				<CodeLabCard lab={lab} />
+				<CodeLabCard lab={lab} key={lab.id} />
 			))}
 		</div>
 	);

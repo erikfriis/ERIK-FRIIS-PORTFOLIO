@@ -1,8 +1,9 @@
+import React from "react";
 import MusicCss from "./Music.module.css";
 
-const Music = () => {
+const Music = React.forwardRef(({}, ref) => {
 	return (
-		<div className={MusicCss.container}>
+		<div className={MusicCss.container} ref={ref}>
 			<div className={MusicCss.containerHeadings}>
 				<h2>MUSIC PRODUCTION</h2>
 				<h4>SOME PICS FROM MY MUSIC PRODUCTION WORK</h4>
@@ -17,7 +18,7 @@ const Music = () => {
 						src="https://open.spotify.com/embed/album/65tjNTCfHWYI9loU4VinW1?utm_source=generator"
 						height="352"
 						frameBorder="0"
-						allowfullscreen=""
+						allowFullScreen=""
 						allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
 						loading="lazy"
 					></iframe>
@@ -32,7 +33,7 @@ const Music = () => {
 						width="100%"
 						height="352"
 						frameBorder="0"
-						allowfullscreen=""
+						allowFullScreen=""
 						allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
 						loading="lazy"
 					></iframe>
@@ -40,6 +41,6 @@ const Music = () => {
 			</div>
 		</div>
 	);
-};
+});
 
 export default Music;
