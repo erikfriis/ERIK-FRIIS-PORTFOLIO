@@ -1,0 +1,17 @@
+
+[
+	{
+		"id": 1,
+		"title": "LEARNING SYNTHS LAB",
+		"tech": "REACT, TONE.JS, STYLED COMPONENTS",
+		"description": "In this lab I have explored the we audio API using tone.js and it’s bla",
+		"img": "../src/assets/SynthImg.png"
+	},
+	{
+		"id": 2,
+		"title": "DRUM MACHINE LAB",
+		"tech": "REACT, TONE.JS, STYLED COMPONENTS",
+		"description": "In this lab I have explored the we audio API using tone.js and it’s bla",
+		"img": "../src/assets/SynthImg.png"
+	}
+]

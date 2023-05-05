@@ -1,0 +1,33 @@
+.container {
+	/* margin-left: 25%; */
+	width: 55%;
+	margin-top: 15rem;
+}
+
+.containerHeadings {
+	margin: 0;
+}
+.containerHeadings h2 {
+	font-size: 2.25rem;
+}
+
+.containerHeadings h4 {
+	font-size: 1rem;
+	font-weight: 400;
+	margin-left: 1.5rem;
+	color: var(--secondary-textcolor);
+}
+
+.card {
+	padding: 2rem 1rem;
+	display: flex;
+	align-items: center;
+	background-color: var(--cards-grey);
+	margin-top: 1rem;
+}
+
+.PortfolioPic {
+	border-radius: 50%;
+	width: 25%;
+	margin-right: 3rem;
+}

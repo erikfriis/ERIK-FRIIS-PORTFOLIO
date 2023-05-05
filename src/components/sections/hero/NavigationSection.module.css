@@ -1,0 +1,49 @@
+.container {
+	width: 80%;
+	margin-top: 6rem;
+	display: flex;
+}
+
+.navigationItem {
+	width: 352px;
+	height: 352px;
+	margin: 0 1.5rem;
+}
+
+.navigationItem h2,
+.navigationItem h3 {
+	color: var(--secondary-textcolor);
+}
+
+.navigationItemOne {
+	background-image: url("../../../assets/NAVPIC1.png");
+	background-size: cover;
+}
+.navigationItemTwo {
+	background-image: url("../../../assets/NAVPIC2.png");
+	background-size: cover;
+	transform: translateY(64px);
+}
+
+.navigationItemTwo h2,
+.navigationItemTwo h3 {
+	color: var(--pop-textcolor);
+}
+.navigationItemThree {
+	background-image: url("../../../assets/NAVPIC3.png");
+	background-size: cover;
+	transform: translateY(128px);
+}
+
+.textContainer {
+	margin: 1rem 0 0 1rem;
+}
+.textContainer h2 {
+	font-size: 2.25rem;
+}
+
+.textContainer h3 {
+	font-size: 1rem;
+	font-weight: 400;
+	margin-left: 1.5rem;
+}
