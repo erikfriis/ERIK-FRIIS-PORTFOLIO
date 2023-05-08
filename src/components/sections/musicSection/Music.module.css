@@ -1,19 +1,19 @@
 .container {
-	margin-top: 5rem;
-	width: 45%;
+	margin-top: 9rem;
+	width: 70%;
 }
 
 .containerHeadings {
 	margin: 0;
 }
 .containerHeadings h2 {
-	font-size: 2.25rem;
+	font-size: 3rem;
 }
 
 .containerHeadings h4 {
 	font-size: 1rem;
 	font-weight: 400;
-	margin-left: 1.5rem;
+	margin-left: 2rem;
 	color: var(--secondary-textcolor);
 }
 
@@ -24,4 +24,16 @@
 
 .embededContainer {
 	padding: 3rem;
+}
+
+.textConteiner h3 {
+	margin: 0.5rem 0;
+	font-size: 1.5rem;
+	color: var(--primary-textcolor);
+	font-weight: 500;
+}
+
+.textContainer p {
+	font-weight: 300;
+	color: var(--primary-textcolor);
 }

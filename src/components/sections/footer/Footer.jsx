@@ -1,6 +1,5 @@
 import FooterCss from "./Footer.module.css";
 import React from "react";
-import FooterBreak from "./FooterBreak";
 import InstagramIcon from "../../../assets/instagramSVG.svg";
 import LinkedInIcon from "../../../assets/linkedinSVG.svg";
 import EmailIcon from "../../../assets/envelopeSVG.svg";
@@ -8,7 +7,6 @@ import EmailIcon from "../../../assets/envelopeSVG.svg";
 const Footer = React.forwardRef(({}, ref) => {
 	return (
 		<div className={FooterCss.container} ref={ref}>
-			<FooterBreak />
 			<div className={FooterCss.containerHeadings}>
 				<h2>CONTACT ME</h2>
 				<ul className={FooterCss.contactList}>
@@ -18,11 +16,15 @@ const Footer = React.forwardRef(({}, ref) => {
 					</li>
 					<li>
 						<img src={LinkedInIcon} alt="" />
-						<div>erikfriis</div>
+						<div>@erikfriis</div>
 					</li>
 					<li>
 						<img src={InstagramIcon} alt="" />
-						<div>samuraiisounds</div>
+						<div>@samuraiisounds</div>
+					</li>
+					<li>
+						<img src={InstagramIcon} alt="" />
+						<div>Github</div>
 					</li>
 				</ul>
 			</div>
