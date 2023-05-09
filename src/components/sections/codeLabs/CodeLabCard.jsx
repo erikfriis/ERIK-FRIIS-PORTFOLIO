@@ -7,10 +7,13 @@ const CodeLabCard = ({ lab }) => {
 				<h2>{lab.title}</h2>
 				<h3>{lab.tech}</h3>
 				<p>{lab.description}</p>
-				<ul>
-					<li>Live Demo</li>
-					<li>GitHub</li>
-				</ul>
+				<div className={CodeLabCardCss.linksContainer}>
+					<ul>
+						<li>Live Demo</li>
+						<li>GitHub</li>
+					</ul>
+					<div className={CodeLabCardCss.cardLinks}>Read More</div>
+				</div>
 			</div>
 		</div>
 	);

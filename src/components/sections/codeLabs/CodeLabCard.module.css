@@ -33,6 +33,17 @@
 .textContainer ul li {
 	font-size: 0.75rem;
 	margin-right: 1rem;
+	color: var(--secondary-textcolor);
+}
 
+.linksContainer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.cardLinks {
+	font-size: 0.75rem;
+	margin-right: 1rem;
 	color: var(--secondary-textcolor);
 }
