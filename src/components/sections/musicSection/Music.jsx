@@ -52,11 +52,9 @@ const Music = React.forwardRef(({}, ref) => {
 						<h3>LUNO - PLANET LUNO EP</h3>
 						<h4>PRODUCTION AND SONGWRITING</h4>
 						<p>
-							During lockdown, I just wanted to dance a little and decided to
-							make a house/melodic techno-influenced project. Together with some
-							friends I produced and co-wrote four songs that later came out on
-							Ultra Records. Since this was released as a new project I
-							blablabalblablb
+							During lockdown, I decided to make a house/melodic
+							techno-influenced project. Together with some friends I produced
+							and co-wrote these four songs.
 						</p>
 					</div>
 				</div>

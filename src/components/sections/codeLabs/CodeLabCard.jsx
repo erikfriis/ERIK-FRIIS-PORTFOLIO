@@ -1,8 +1,9 @@
 import CodeLabCardCss from "./CodeLabCard.module.css";
+import synthImg from "../../../assets/synthImg.png";
 const CodeLabCard = ({ lab }) => {
 	return (
 		<div className={CodeLabCardCss.container}>
-			<img src={lab.img} alt="" />
+			<img src={synthImg} alt="" />
 			<div className={CodeLabCardCss.textContainer}>
 				<h2>{lab.title}</h2>
 				<h3>{lab.tech}</h3>
