@@ -1,0 +1,121 @@
+.container {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.itemOne {
+	width: 28%;
+	/* padding-bottom: 20%; */
+	aspect-ratio: 1/1;
+	overflow: auto;
+	background-image: url("../../../assets/ABOUT-ME-NEW.jpeg");
+	background-size: cover;
+	background-position: 50% 65%;
+	color: var(--secondary-textcolor);
+}
+.itemTwo {
+	width: 28%;
+	/* padding-bottom: 20%; */
+	aspect-ratio: 1/1;
+
+	overflow: auto;
+	background-image: url("../../../assets/CODE-LABS-IMG.jpeg");
+	background-size: 170%;
+	background-position: 0% 65%;
+	color: var(--pop-textcolor);
+}
+.itemThree {
+	width: 28%;
+	/* padding-bottom: 20%; */
+	aspect-ratio: 1/1;
+
+	overflow: auto;
+	background-image: url("../../../assets/MUSIC-IMG.jpeg");
+	background-size: 190%;
+	background-position: 70% 100%;
+	color: var(--secondary-textcolor);
+}
+
+.itemOne,
+.itemTwo,
+.itemThree {
+	margin: 1rem 0 0 0rem;
+	position: relative;
+}
+
+.itemOne:hover,
+.itemTwo:hover,
+.itemThree:hover {
+	cursor: pointer;
+	/* filter: brightness(0.9); */
+}
+
+/* .itemOne:hover h3,
+.itemTwo:hover h3,
+.itemThree:hover h3 {
+	text-decoration: underline;
+} */
+.itemOne h2,
+.itemTwo h2,
+.itemThree h2 {
+	font-size: var(--main-heading);
+}
+
+.itemOne h3,
+.itemTwo h3,
+.itemThree h3 {
+	font-size: 1rem;
+	font-weight: 400;
+	margin-left: 1.5rem;
+}
+
+.shortArrow {
+	position: absolute;
+	bottom: 15px;
+	left: 50%;
+	transform: translateX(-50%);
+	opacity: 0%;
+	transition: all 0.3s ease-in-out;
+}
+
+.itemOne:hover .shortArrow,
+.itemTwo:hover .shortArrow,
+.itemThree:hover .shortArrow {
+	opacity: 30%;
+	bottom: 10px;
+}
+
+@media screen and (max-width: 900px) {
+	.container {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.itemOne,
+	.itemTwo,
+	.itemThree {
+		width: 60%;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.itemOne,
+	.itemTwo,
+	.itemThree {
+		width: 30%;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.container {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.itemOne,
+	.itemTwo,
+	.itemThree {
+		width: 60%;
+	}
+}

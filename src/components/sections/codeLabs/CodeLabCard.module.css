@@ -3,8 +3,12 @@
 	margin-top: 1.5rem;
 }
 
+.container:hover {
+	cursor: pointer;
+}
+
 .textContainer {
-	background-color: var(--cards-popcolor);
+	background-color: var(--secondery-textcolor);
 	padding: 1rem 1rem;
 }
 
@@ -29,6 +33,29 @@
 .textContainer ul li {
 	font-size: 0.75rem;
 	margin-right: 1rem;
-
 	color: var(--secondary-textcolor);
+}
+
+.linksContainer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.cardLinks {
+	font-size: 0.75rem;
+	margin-right: 1rem;
+	color: var(--secondary-textcolor);
+}
+
+@media screen and (max-width: 1080px) {
+	.container {
+		width: 80%;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.container {
+		width: 100%;
+	}
 }

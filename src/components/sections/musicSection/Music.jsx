@@ -15,13 +15,24 @@ const Music = React.forwardRef(({}, ref) => {
 							borderRadius: "0px",
 							width: "100%",
 						}}
-						src="https://open.spotify.com/embed/album/65tjNTCfHWYI9loU4VinW1?utm_source=generator"
+						src="https://open.spotify.com/embed/album/65tjNTCfHWYI9loU4VinW1?utm_source=generator&theme=0"
 						height="352"
 						frameBorder="0"
 						allowFullScreen=""
 						allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
 						loading="lazy"
 					></iframe>
+					<div className={MusicCss.textConteiner}>
+						<h3>SAMURAII X HAUX - FEVER IN THE NIGHT EP</h3>
+						<h4>PRODUCTION AND SONGWRITING</h4>
+						<p>
+							This EP consists of four atmospheric tracks that were the result
+							of a collaboration between myself and the talented
+							singer/songwhisperer, Haux. Our vision was to blend electronic
+							productions with gentle folk vocals in a manner that would bring
+							our individual styles together.
+						</p>
+					</div>
 				</div>
 				<div className={MusicCss.embededContainer}>
 					<iframe
@@ -29,7 +40,7 @@ const Music = React.forwardRef(({}, ref) => {
 							borderRadius: "0px",
 							width: "100%",
 						}}
-						src="https://open.spotify.com/embed/album/1ffWHH2Y4lnfxi0xldRdBD?utm_source=generator"
+						src="https://open.spotify.com/embed/album/1ffWHH2Y4lnfxi0xldRdBD?utm_source=generator&theme=0"
 						width="100%"
 						height="352"
 						frameBorder="0"
@@ -37,6 +48,17 @@ const Music = React.forwardRef(({}, ref) => {
 						allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
 						loading="lazy"
 					></iframe>
+					<div className={MusicCss.textConteiner}>
+						<h3>LUNO - PLANET LUNO EP</h3>
+						<h4>PRODUCTION AND SONGWRITING</h4>
+						<p>
+							During lockdown, I just wanted to dance a little and decided to
+							make a house/melodic techno-influenced project. Together with some
+							friends I produced and co-wrote four songs that later came out on
+							Ultra Records. Since this was released as a new project I
+							blablabalblablb
+						</p>
+					</div>
 				</div>
 			</div>
 		</div>

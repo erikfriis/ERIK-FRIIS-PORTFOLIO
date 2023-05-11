@@ -3,27 +3,41 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	padding: 6rem 0;
 }
 
 .containerHeadings {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
+	align-items: center;
 }
 
 .contactList {
-	padding: 0;
-	margin: 0.25rem 0 2rem 0;
+	padding: 5rem 0;
+	display: flex;
+	justify-content: space-between;
+
+	list-style: none;
 }
 
-.contactList li {
+.contactList li a {
+	font-size: 1.25rem;
 	display: flex;
 	align-items: center;
 	padding: 0;
-	margin: 0.25rem 0;
+	margin: 0.75rem 2rem;
+	color: var(--primary-textcolor);
 }
 
 .contactList li img {
 	width: 1rem;
 	margin-right: 0.5rem;
+}
+
+@media screen and (max-width: 900px) {
+	.container ul {
+		flex-direction: column;
+		align-items: center;
+	}
 }

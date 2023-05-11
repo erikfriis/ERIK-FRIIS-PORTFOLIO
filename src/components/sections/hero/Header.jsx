@@ -4,10 +4,11 @@ const Header = () => {
 	return (
 		<div className={HeaderCss.container}>
 			<h1 className={HeaderCss.headingMain}>
-				Exploring tools to innovate: Erik Friis, frontend developer and music
-				producer
+				Exploring tools to innovate <br />
+				<span className={HeaderCss.headerSecondRow}>
+					Frontend developer with background in music production
+				</span>
 			</h1>
-			<h3 className={HeaderCss.headingSmall}>Let me show you...</h3>
 		</div>
 	);
 };

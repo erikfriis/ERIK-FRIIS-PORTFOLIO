@@ -1,33 +1,94 @@
 .container {
 	/* margin-left: 25%; */
-	width: 55%;
-	margin-top: 15rem;
+	width: 70%;
+	padding-top: 4rem;
 }
 
 .containerHeadings {
 	margin: 0;
 }
 .containerHeadings h2 {
-	font-size: 2.25rem;
+	font-size: var(--main-heading);
+	color: var(--primary-textcolor);
 }
 
 .containerHeadings h4 {
 	font-size: 1rem;
 	font-weight: 400;
-	margin-left: 1.5rem;
+	margin-left: 2rem;
 	color: var(--secondary-textcolor);
 }
 
 .card {
+	font-size: 1rem;
+	color: var(--primary-textcolor);
 	padding: 2rem 1rem;
 	display: flex;
 	align-items: center;
-	background-color: var(--cards-grey);
 	margin-top: 1rem;
+}
+
+.paragraph {
+	font-weight: 300;
+}
+
+.paragraph h4 {
+	margin-bottom: 1rem;
+	font-size: 1.25rem;
+	font-weight: 500;
 }
 
 .PortfolioPic {
 	border-radius: 50%;
-	width: 25%;
+	width: 260px;
 	margin-right: 3rem;
+}
+
+.contactList {
+	padding: 0;
+	margin: 1rem 0 2rem 0;
+	display: flex;
+}
+
+.contactList li {
+	display: flex;
+	align-items: center;
+	padding: 0;
+	margin: 0.25rem 1.25rem 0 0;
+	text-decoration: underline;
+}
+
+.contactList li a {
+	text-decoration: underline;
+	color: var(--primary-textcolor);
+}
+
+.contactList li img {
+	width: 1rem;
+	margin-right: 0.5rem;
+}
+
+.emphasize {
+	font-weight: 500;
+}
+
+@media screen and (max-width: 1150px) {
+	.card {
+		align-items: flex-start;
+	}
+	.PortfolioPic {
+		width: 200px;
+	}
+}
+@media screen and (max-width: 900px) {
+	.card {
+		flex-direction: column;
+		align-items: center;
+	}
+	.PortfolioPic {
+		border-radius: 50%;
+		width: 170px;
+		margin-right: 0rem;
+		margin-bottom: 2rem;
+	}
 }

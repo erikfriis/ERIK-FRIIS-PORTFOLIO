@@ -1,8 +1,23 @@
 :root {
-	--primary-textcolor: #000000;
+	/* colors */
+
+	--primary-textcolor: #3c3c3c;
 	--secondary-textcolor: #5a57d1;
 	--pop-textcolor: #fff616;
 	--page-main-color: #fafafa;
 	--cards-grey: #f7f5f5;
 	--cards-popcolor: #fff960;
+
+	/* Fontsizes */
+
+	--main-heading: 3rem;
+
+	--x: 0;
+	--y: 0;
+}
+
+@media screen and (max-width: 1130px) {
+	:root {
+		--main-heading: 2.25rem;
+	}
 }
