@@ -44,15 +44,25 @@ const About = React.forwardRef((props, ref) => {
 					<ul className={AboutCss.contactList}>
 						<li>
 							<img src={EmailIcon} alt="" />
-							<div>erik.friis@hyperisland.se</div>
+							<a href="mailto:erik.friis@hyperisland.se">
+								erik.friis@hyperisland.se
+							</a>
 						</li>
 						<li>
 							<img src={LinkedInIcon} alt="" />
-							<div>erikfriis</div>
+
+							<a
+								href="https://www.linkedin.com/in/erik-friis-8228a494/"
+								target="_blank"
+							>
+								@erikfriis
+							</a>
 						</li>
 						<li>
 							<img src={InstagramIcon} alt="" />
-							<div>GitHub</div>
+							<a href="https://github.com/erikfriis" target="_blank">
+								GitHub
+							</a>
 						</li>
 					</ul>
 				</div>

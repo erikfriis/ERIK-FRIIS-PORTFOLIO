@@ -59,6 +59,11 @@
 	text-decoration: underline;
 }
 
+.contactList li a {
+	text-decoration: underline;
+	color: var(--primary-textcolor);
+}
+
 .contactList li img {
 	width: 1rem;
 	margin-right: 0.5rem;

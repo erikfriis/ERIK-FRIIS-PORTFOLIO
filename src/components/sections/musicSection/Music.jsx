@@ -24,13 +24,13 @@ const Music = React.forwardRef(({}, ref) => {
 					></iframe>
 					<div className={MusicCss.textConteiner}>
 						<h3>SAMURAII X HAUX - FEVER IN THE NIGHT EP</h3>
+						<h4>PRODUCTION AND SONGWRITING</h4>
 						<p>
 							This EP consists of four atmospheric tracks that were the result
-							of an exciting collaboration between myself and the talented
-							singer/songwhispere, Haux. Our vision was to blend electronic
+							of a collaboration between myself and the talented
+							singer/songwhisperer, Haux. Our vision was to blend electronic
 							productions with gentle folk vocals in a manner that would bring
-							our individual styles to a unified whole, and this is the final
-							result.
+							our individual styles together.
 						</p>
 					</div>
 				</div>
@@ -50,6 +50,7 @@ const Music = React.forwardRef(({}, ref) => {
 					></iframe>
 					<div className={MusicCss.textConteiner}>
 						<h3>LUNO - PLANET LUNO EP</h3>
+						<h4>PRODUCTION AND SONGWRITING</h4>
 						<p>
 							During lockdown, I just wanted to dance a little and decided to
 							make a house/melodic techno-influenced project. Together with some
