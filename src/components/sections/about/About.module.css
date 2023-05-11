@@ -1,7 +1,7 @@
 .container {
 	/* margin-left: 25%; */
 	width: 70%;
-	margin-top: 4rem;
+	padding-top: 4rem;
 }
 
 .containerHeadings {
@@ -62,4 +62,8 @@
 .contactList li img {
 	width: 1rem;
 	margin-right: 0.5rem;
+}
+
+.emphasize {
+	font-weight: 500;
 }

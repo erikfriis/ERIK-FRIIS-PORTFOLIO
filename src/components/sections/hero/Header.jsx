@@ -5,7 +5,7 @@ const Header = () => {
 		<div className={HeaderCss.container}>
 			<h1 className={HeaderCss.headingMain}>Exploring tools to innovate</h1>
 			<h1 className={`${HeaderCss.headingMain} ${HeaderCss.headerTwo}`}>
-				Frontend developer and music producer
+				Frontend developer with background in music production
 			</h1>
 		</div>
 	);

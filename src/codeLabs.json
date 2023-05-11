@@ -3,7 +3,7 @@
 	{
 		"id": 1,
 		"title": "LEARNING SYNTHS LAB",
-		"tech": "REACT, TONE.JS, STYLED COMPONENTS",
+		"tech": "REACT, TONE.JS, STYLED COMPONENTS, REACT ROUTER",
 		"description": "In this lab I have explored the we audio API using tone.js. The goal was to learn more about tone.js and to create an easy to use synthetzizer that anyone could interact with.",
 		"img": "../src/assets/SynthImg.png"
 	},

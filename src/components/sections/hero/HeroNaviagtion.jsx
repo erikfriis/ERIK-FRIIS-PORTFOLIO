@@ -23,7 +23,7 @@ const HeroNavigation = React.forwardRef(({ handleScroll }, ref) => {
 			>
 				<div className={HeroNavigationCSS.textContainer}>
 					<h2>CODE LABS</h2>
-					<h3>MOST RECENT CODE LABS</h3>
+					<h3>MOST RECENT CODE EXPERIMENTS</h3>
 				</div>
 				<img src={shortArrow} alt="" className={HeroNavigationCSS.shortArrow} />
 			</div>
