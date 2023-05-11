@@ -16,6 +16,8 @@
 .contactList {
 	padding: 5rem 0;
 	display: flex;
+	justify-content: space-between;
+
 	list-style: none;
 }
 
@@ -31,4 +33,11 @@
 .contactList li img {
 	width: 1rem;
 	margin-right: 0.5rem;
+}
+
+@media screen and (max-width: 900px) {
+	.container ul {
+		flex-direction: column;
+		align-items: center;
+	}
 }

@@ -5,9 +5,10 @@
 }
 
 .headingMain {
+	font-size: var(--main-heading);
 	color: var(--primary-textcolor);
 }
-.headerTwo {
+.headerSecondRow {
 	margin-left: 3rem;
 }
 
@@ -16,4 +17,22 @@
 	font-weight: 400;
 	color: var(--secondary-textcolor);
 	margin-top: 1rem;
+}
+
+@media screen and (max-width: 900px) {
+	.container {
+		width: 80%;
+		margin-top: 8%;
+		margin-bottom: 3rem;
+	}
+
+	.headingMain {
+		font-size: 2.5rem;
+		text-align: center;
+		color: var(--primary-textcolor);
+		display: none;
+	}
+	.headerSecondRow {
+		margin-left: 0rem;
+	}
 }

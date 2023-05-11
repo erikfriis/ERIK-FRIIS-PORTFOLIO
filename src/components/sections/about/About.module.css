@@ -8,7 +8,7 @@
 	margin: 0;
 }
 .containerHeadings h2 {
-	font-size: 3rem;
+	font-size: var(--main-heading);
 	color: var(--primary-textcolor);
 }
 
@@ -25,7 +25,6 @@
 	padding: 2rem 1rem;
 	display: flex;
 	align-items: center;
-
 	margin-top: 1rem;
 }
 
@@ -41,7 +40,7 @@
 
 .PortfolioPic {
 	border-radius: 50%;
-	width: 23%;
+	width: 260px;
 	margin-right: 3rem;
 }
 
@@ -71,4 +70,25 @@
 
 .emphasize {
 	font-weight: 500;
+}
+
+@media screen and (max-width: 1150px) {
+	.card {
+		align-items: flex-start;
+	}
+	.PortfolioPic {
+		width: 200px;
+	}
+}
+@media screen and (max-width: 900px) {
+	.card {
+		flex-direction: column;
+		align-items: center;
+	}
+	.PortfolioPic {
+		border-radius: 50%;
+		width: 170px;
+		margin-right: 0rem;
+		margin-bottom: 2rem;
+	}
 }

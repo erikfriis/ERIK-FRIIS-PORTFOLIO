@@ -1,27 +1,36 @@
 .container {
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
+	width: 100%;
 }
 
 .itemOne {
-	width: 380px;
-	height: 380px;
+	width: 28%;
+	/* padding-bottom: 20%; */
+	aspect-ratio: 1/1;
+	overflow: auto;
 	background-image: url("../../../assets/ABOUT-ME-NEW.jpeg");
 	background-size: cover;
 	background-position: 50% 65%;
 	color: var(--secondary-textcolor);
 }
 .itemTwo {
-	width: 380px;
-	height: 380px;
+	width: 28%;
+	/* padding-bottom: 20%; */
+	aspect-ratio: 1/1;
+
+	overflow: auto;
 	background-image: url("../../../assets/CODE-LABS-IMG.jpeg");
 	background-size: 170%;
 	background-position: 0% 65%;
 	color: var(--pop-textcolor);
 }
 .itemThree {
-	width: 380px;
-	height: 380px;
+	width: 28%;
+	/* padding-bottom: 20%; */
+	aspect-ratio: 1/1;
+
+	overflow: auto;
 	background-image: url("../../../assets/MUSIC-IMG.jpeg");
 	background-size: 190%;
 	background-position: 70% 100%;
@@ -50,7 +59,7 @@
 .itemOne h2,
 .itemTwo h2,
 .itemThree h2 {
-	font-size: 3rem;
+	font-size: var(--main-heading);
 }
 
 .itemOne h3,
@@ -75,4 +84,38 @@
 .itemThree:hover .shortArrow {
 	opacity: 30%;
 	bottom: 10px;
+}
+
+@media screen and (max-width: 900px) {
+	.container {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.itemOne,
+	.itemTwo,
+	.itemThree {
+		width: 60%;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.itemOne,
+	.itemTwo,
+	.itemThree {
+		width: 30%;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.container {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.itemOne,
+	.itemTwo,
+	.itemThree {
+		width: 60%;
+	}
 }
