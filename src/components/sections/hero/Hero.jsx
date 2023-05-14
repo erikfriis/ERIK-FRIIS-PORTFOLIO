@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import Header from "./Header";
+import Navbar from "./Navbar";
 
 import HeroCss from "./Hero.module.css";
 
@@ -25,7 +26,7 @@ const Hero = React.forwardRef(({ handleScroll }, ref) => {
 
 	return (
 		<div className={HeroCss.container} ref={heroRef}>
-			{/* <Navbar  /> */}
+			<Navbar handleScroll={handleScroll} ref={ref} />
 			<Header />
 			<HeroNavigation handleScroll={handleScroll} ref={ref} />
 			<Arrow

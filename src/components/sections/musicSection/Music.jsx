@@ -5,8 +5,8 @@ const Music = React.forwardRef(({}, ref) => {
 	return (
 		<div className={MusicCss.container} ref={ref}>
 			<div className={MusicCss.containerHeadings}>
-				<h2>MUSIC PRODUCTION</h2>
-				<h4>SOME PICS FROM MY MUSIC PRODUCTION WORK</h4>
+				<h2>SOME MUSIC STUFF</h2>
+				<h4>PICS FROM MY MUSIC PRODUCTION WORK</h4>
 			</div>
 			<div className={MusicCss.musicContainer}>
 				<div className={MusicCss.embededContainer}>
@@ -23,15 +23,15 @@ const Music = React.forwardRef(({}, ref) => {
 						loading="lazy"
 					></iframe>
 					<div className={MusicCss.textConteiner}>
-						<h3>SAMURAII X HAUX - FEVER IN THE NIGHT EP</h3>
+						<h3>SAMURAII, HAUX - FEVER IN THE NIGHT EP</h3>
 						<h4>PRODUCTION AND SONGWRITING</h4>
-						<p>
+						{/* <p>
 							This EP consists of four atmospheric tracks that were the result
 							of a collaboration between myself and the talented
 							singer/songwhisperer, Haux. Our vision was to blend electronic
 							productions with gentle folk vocals in a manner that would bring
 							our individual styles together.
-						</p>
+						</p> */}
 					</div>
 				</div>
 				<div className={MusicCss.embededContainer}>
@@ -51,11 +51,11 @@ const Music = React.forwardRef(({}, ref) => {
 					<div className={MusicCss.textConteiner}>
 						<h3>LUNO - PLANET LUNO EP</h3>
 						<h4>PRODUCTION AND SONGWRITING</h4>
-						<p>
+						{/* <p>
 							During lockdown, I decided to make a house/melodic
 							techno-influenced project. Together with some friends I produced
 							and co-wrote these four songs.
-						</p>
+						</p> */}
 					</div>
 				</div>
 			</div>
