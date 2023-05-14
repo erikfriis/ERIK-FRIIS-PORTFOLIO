@@ -9,9 +9,9 @@
 	},
 	{
 		"id": 2,
-		"title": "DRUM MACHINE LAB",
-		"tech": "REACT, TONE.JS, STYLED COMPONENTS",
+		"title": "SOUND PAD LAB",
+		"tech": "REACT, TONE.JS, CSS MODULES",
 		"description": "In this lab I have explored the we audio API using tone.js. The goal was to learn more about tone.js and to create an easy to use synthetzizer that anyone could interact with.",
-		"img": "../src/assets/SynthImg.png"
+		"img": "../src/assets/SoundPadImg.png"
 	}
 ]

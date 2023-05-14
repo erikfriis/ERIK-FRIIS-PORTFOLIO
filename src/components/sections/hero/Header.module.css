@@ -1,15 +1,15 @@
 .container {
-	width: 100%;
-	margin-top: 8%;
+	width: 78%;
+	margin-top: 1rem;
 	margin-bottom: 3rem;
+	display: flex;
+	justify-content: center;
 }
 
 .headingMain {
 	font-size: var(--main-heading);
+	font-weight: 300;
 	color: var(--primary-textcolor);
-}
-.headerSecondRow {
-	margin-left: 3rem;
 }
 
 .headingSmall {
@@ -19,18 +19,13 @@
 	margin-top: 1rem;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1300px) {
 	.container {
-		width: 80%;
-		margin-top: 8%;
-		margin-bottom: 3rem;
+		width: 90%;
 	}
 
 	.headingMain {
-		font-size: 2.5rem;
-		text-align: center;
 		color: var(--primary-textcolor);
-		display: none;
 	}
 	.headerSecondRow {
 		margin-left: 0rem;

@@ -2,9 +2,9 @@ import React from "react";
 import AboutCss from "./About.module.css";
 import PortfolioPic from "../../../assets/ERIKPORTFOLIO.jpg";
 
-import InstagramIcon from "../../../assets/instagramSVG.svg";
 import LinkedInIcon from "../../../assets/linkedinSVG.svg";
 import EmailIcon from "../../../assets/envelopeSVG.svg";
+import GitHubIcon from "../../../assets/github-mark.svg";
 
 const About = React.forwardRef((props, ref) => {
 	return (
@@ -59,7 +59,7 @@ const About = React.forwardRef((props, ref) => {
 							</a>
 						</li>
 						<li>
-							<img src={InstagramIcon} alt="" />
+							<img src={GitHubIcon} alt="" />
 							<a href="https://github.com/erikfriis" target="_blank">
 								GitHub
 							</a>

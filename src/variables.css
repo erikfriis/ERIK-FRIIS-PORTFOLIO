@@ -11,13 +11,15 @@
 	/* Fontsizes */
 
 	--main-heading: 3rem;
+	--small-heading: 1rem;
 
 	--x: 0;
 	--y: 0;
 }
 
-@media screen and (max-width: 1130px) {
+@media screen and (max-width: 1200px) {
 	:root {
-		--main-heading: 2.25rem;
+		--main-heading: 2.5rem;
+		--small-heading: 0.9rem;
 	}
 }

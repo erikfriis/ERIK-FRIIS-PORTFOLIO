@@ -5,7 +5,7 @@
 }
 
 .itemOne {
-	width: 28%;
+	width: 26%;
 	/* padding-bottom: 20%; */
 	aspect-ratio: 1/1;
 	overflow: auto;
@@ -15,7 +15,7 @@
 	color: var(--secondary-textcolor);
 }
 .itemTwo {
-	width: 28%;
+	width: 26%;
 	/* padding-bottom: 20%; */
 	aspect-ratio: 1/1;
 
@@ -26,7 +26,7 @@
 	color: var(--pop-textcolor);
 }
 .itemThree {
-	width: 28%;
+	width: 26%;
 	/* padding-bottom: 20%; */
 	aspect-ratio: 1/1;
 
@@ -65,7 +65,7 @@
 .itemOne h3,
 .itemTwo h3,
 .itemThree h3 {
-	font-size: 1rem;
+	font-size: var(--small-heading);
 	font-weight: 400;
 	margin-left: 1.5rem;
 }
@@ -86,20 +86,11 @@
 	bottom: 10px;
 }
 
-@media screen and (max-width: 900px) {
-	.container {
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-	}
-	.itemOne,
-	.itemTwo,
-	.itemThree {
-		width: 60%;
-	}
+.textContainer {
+	margin: 0.5rem 0 0 2rem;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1300px) {
 	.itemOne,
 	.itemTwo,
 	.itemThree {
@@ -110,12 +101,13 @@
 @media screen and (max-width: 900px) {
 	.container {
 		flex-direction: column;
-		align-items: center;
 		justify-content: center;
+		align-items: center;
 	}
 	.itemOne,
 	.itemTwo,
 	.itemThree {
-		width: 60%;
+		width: 90%;
+		aspect-ratio: 1/0.4;
 	}
 }
