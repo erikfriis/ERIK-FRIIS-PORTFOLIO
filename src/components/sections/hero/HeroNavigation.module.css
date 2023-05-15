@@ -9,7 +9,7 @@
 	/* padding-bottom: 20%; */
 	aspect-ratio: 1/1;
 	overflow: auto;
-	background-image: url("../../../assets/ABOUT-ME-NEW.jpeg");
+	background-image: url("../../../../public/assets/ABOUT-ME-NEW.jpeg");
 	background-size: cover;
 	background-position: 50% 65%;
 	color: var(--secondary-textcolor);
@@ -20,7 +20,7 @@
 	aspect-ratio: 1/1;
 
 	overflow: auto;
-	background-image: url("../../../assets/CODE-LABS-IMG.jpeg");
+	background-image: url("../../../../public/assets/CODE-LABS-IMG.jpeg");
 	background-size: 170%;
 	background-position: 0% 65%;
 	color: var(--pop-textcolor);
@@ -31,7 +31,7 @@
 	aspect-ratio: 1/1;
 
 	overflow: auto;
-	background-image: url("../../../assets/MUSIC-IMG.jpeg");
+	background-image: url("../../../../public/assets/MUSIC-IMG.jpeg");
 	background-size: 190%;
 	background-position: 70% 100%;
 	color: var(--secondary-textcolor);

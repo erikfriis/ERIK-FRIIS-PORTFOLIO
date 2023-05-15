@@ -1,8 +1,8 @@
 import FooterCss from "./Footer.module.css";
 import React from "react";
-import InstagramIcon from "../../../assets/instagramSVG.svg";
-import LinkedInIcon from "../../../assets/linkedinSVG.svg";
-import EmailIcon from "../../../assets/envelopeSVG.svg";
+import InstagramIcon from "../../../../public/assets/instagramSVG.svg";
+import LinkedInIcon from "../../../../public/assets/linkedinSVG.svg";
+import EmailIcon from "../../../../public/assets/envelopeSVG.svg";
 
 const Footer = React.forwardRef(({}, ref) => {
 	return (

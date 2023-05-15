@@ -5,13 +5,35 @@
 		"title": "LEARNING SYNTHS LAB",
 		"tech": "REACT, TONE.JS, STYLED COMPONENTS, REACT ROUTER",
 		"description": "In this lab I have explored the we audio API using tone.js. The goal was to learn more about tone.js and to create an easy to use synthetzizer that anyone could interact with.",
-		"img": "../src/assets/SynthImg.png"
+		"img": "../../public/assets/SynthImg.png",
+		"deployedUrl": "https://learning-synths-lab.netlify.app",
+		"githubUrl": "https://github.com/erikfriis/learning-synths-lab"
 	},
 	{
 		"id": 2,
 		"title": "SOUND PAD LAB",
 		"tech": "REACT, TONE.JS, CSS MODULES",
 		"description": "In this lab I have explored the we audio API using tone.js. The goal was to learn more about tone.js and to create an easy to use synthetzizer that anyone could interact with.",
-		"img": "../src/assets/SoundPadImg.png"
+		"img": "../../public/assets/SoundPadImg.png",
+		"deployedUrl": "https://sound-pad.netlify.app",
+		"githubUrl": "https://github.com/erikfriis/sound-pad-lab"
+	},
+	{
+		"id": 3,
+		"title": "IDEA LIST",
+		"tech": "REACT, NODE.JS, EXPRESS, SWR",
+		"description": "Diving into node.js backend, exploring optimistic UI using SWR and more. This project gave me ",
+		"img": "../../public/assets/SoundPadImg.png",
+		"deployedUrl": "",
+		"githubUrl": ""
+	},
+	{
+		"id": 4,
+		"title": "PORTFOLIO",
+		"tech": "REACT, CSS MODULES, FIGMA",
+		"description": "Designed in figma and developed in react",
+		"img": "../../public/assets/SoundPadImg.png",
+		"deployedUrl": "",
+		"githubUrl": ""
 	}
 ]

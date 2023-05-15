@@ -1,6 +1,6 @@
 import React from "react";
 import ArrowCss from "./Arrow.module.css";
-import ArrowSvg from "../../../assets/Arrow.svg";
+import ArrowSvg from "../../../../public/assets/Arrow.svg";
 
 const Arrow = React.forwardRef(({ showArrow, handleScroll }, ref) => {
 	return (
