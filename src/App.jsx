@@ -1,6 +1,6 @@
 import Hero from "./components/sections/hero/Hero";
 import About from "./components/sections/about/About";
-import React, { useRef } from "react";
+import React, { useRef, Suspense } from "react";
 
 import Music from "./components/sections/musicSection/Music";
 import AppCss from "./App.module.css";
@@ -24,7 +24,9 @@ const App = () => {
 				ref={[aboutRef, codeLabsRef, musicRef, footerRef]}
 			/>
 			<About ref={aboutRef} />
-			<CodeLabs ref={codeLabsRef} />
+			<Suspense fallback={<div>Loading...</div>}>
+				<CodeLabs ref={codeLabsRef} />
+			</Suspense>
 			<Music ref={musicRef} />
 			<Footer ref={footerRef} />
 		</div>
