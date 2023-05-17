@@ -70,9 +70,10 @@
 	margin-left: 1.5rem;
 }
 
-.shortArrow {
+/* .shortArrow {
+	height: 20px;
 	position: absolute;
-	bottom: 15px;
+	bottom: 0px;
 	left: 50%;
 	transform: translateX(-50%);
 	opacity: 0%;
@@ -84,7 +85,7 @@
 .itemThree:hover .shortArrow {
 	opacity: 30%;
 	bottom: 10px;
-}
+} */
 
 .textContainer {
 	margin: 0.5rem 0 0 2rem;

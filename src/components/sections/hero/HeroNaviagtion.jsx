@@ -15,7 +15,7 @@ const HeroNavigation = React.forwardRef(({ handleScroll }, ref) => {
 					<h2>ABOUT ME</h2>
 					<h3>EXPERIENCE AND BACKGROUND</h3>
 				</div>
-				<img src={shortArrow} alt="" className={HeroNavigationCSS.shortArrow} />
+				{/* <img src={shortArrow} alt="" className={HeroNavigationCSS.shortArrow} /> */}
 			</div>
 			<div
 				className={HeroNavigationCSS.itemTwo}
@@ -25,7 +25,7 @@ const HeroNavigation = React.forwardRef(({ handleScroll }, ref) => {
 					<h2>CODE LABS</h2>
 					<h3>MOST RECENT CODE EXPERIMENTS</h3>
 				</div>
-				<img src={shortArrow} alt="" className={HeroNavigationCSS.shortArrow} />
+				{/* <img src={shortArrow} alt="" className={HeroNavigationCSS.shortArrow} /> */}
 			</div>
 			<div
 				className={HeroNavigationCSS.itemThree}
@@ -35,7 +35,7 @@ const HeroNavigation = React.forwardRef(({ handleScroll }, ref) => {
 					<h2>MUSIC</h2>
 					<h3>MUSIC PRODUCTION WORK</h3>
 				</div>
-				<img src={shortArrow} alt="" className={HeroNavigationCSS.shortArrow} />
+				{/* <img src={shortArrow} alt="" className={HeroNavigationCSS.shortArrow} /> */}
 			</div>
 		</div>
 	);

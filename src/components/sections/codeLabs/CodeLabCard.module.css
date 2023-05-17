@@ -1,6 +1,13 @@
 .container {
 	width: 48%;
 	margin-top: 1.5rem;
+	color: aquamarine;
+}
+.container a {
+	color: var(--primary-textcolor);
+}
+.container a:hover {
+	color: var(--primary-textcolor);
 }
 
 .container:hover {
@@ -51,6 +58,10 @@
 .cardLinks {
 	font-size: 0.75rem;
 	margin-right: 1rem;
+	color: var(--secondary-textcolor);
+}
+
+.linksContainer a {
 	color: var(--secondary-textcolor);
 }
 

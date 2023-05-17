@@ -4,8 +4,8 @@
 		"id": 1,
 		"title": "LEARNING SYNTHS LAB",
 		"tech": "REACT, TONE.JS, STYLED COMPONENTS, REACT ROUTER",
-		"description": "In this lab I have explored the we audio API using tone.js. The goal was to learn more about tone.js and to create an easy to use synthetzizer that anyone could interact with.",
-		"img": "../../public/assets/SynthImg.png",
+		"description": "In this lab I have explored the web audio API using tone.js. The goal was to learn more about tone.js and to create an easy to use synthetzizer that anyone could interact with.",
+		"img": "../public/assets/SynthImg.png",
 		"deployedUrl": "https://learning-synths-lab.netlify.app",
 		"githubUrl": "https://github.com/erikfriis/learning-synths-lab"
 	},
@@ -13,8 +13,8 @@
 		"id": 2,
 		"title": "SOUND PAD LAB",
 		"tech": "REACT, TONE.JS, CSS MODULES",
-		"description": "In this lab I have explored the we audio API using tone.js. The goal was to learn more about tone.js and to create an easy to use synthetzizer that anyone could interact with.",
-		"img": "../../public/assets/SoundPadImg.png",
+		"description": "Another fun lab with tone.js. ",
+		"img": "../public/assets/SoundPadImg.png",
 		"deployedUrl": "https://sound-pad.netlify.app",
 		"githubUrl": "https://github.com/erikfriis/sound-pad-lab"
 	},
@@ -22,18 +22,18 @@
 		"id": 3,
 		"title": "IDEA LIST",
 		"tech": "REACT, NODE.JS, EXPRESS, SWR",
-		"description": "Diving into node.js backend, exploring optimistic UI using SWR and more. This project gave me ",
-		"img": "../../public/assets/SoundPadImg.png",
-		"deployedUrl": "",
-		"githubUrl": ""
+		"description": "Diving into node.js backend using express and sequelize. exploring optimistic UI using SWR and more. Not yet deployed. Check out the code on GitHub and I am happy to show this project on request. ",
+		"img": "../public/assets/songIdeasImg.png",
+		"deployedUrl": "https://github.com/erikfriis/song-notes",
+		"githubUrl": "https://github.com/erikfriis/song-notes"
 	},
 	{
 		"id": 4,
 		"title": "PORTFOLIO",
 		"tech": "REACT, CSS MODULES, FIGMA",
-		"description": "Designed in figma and developed in react",
-		"img": "../../public/assets/SoundPadImg.png",
+		"description": "Designed in figma and developed in react.",
+		"img": "../public/assets/portfolioimg.png",
 		"deployedUrl": "",
-		"githubUrl": ""
+		"githubUrl": "https://github.com/erikfriis/song-notes"
 	}
 ]
