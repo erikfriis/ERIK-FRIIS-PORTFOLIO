@@ -2,7 +2,18 @@
 
 @font-face {
 	font-family: "NeueHaas";
-	src: url("./fonts/NeueHaasUnicaPro-Regular.ttf");
+	src: url("/fonts/NeueHaasUnicaPro-Regular.otf") format("truetype");
+	font-weight: 500;
+}
+@font-face {
+	font-family: "NeueHaas";
+	src: url("/fonts/NeueHaasUnicaPro-Bold.ttf") format("truetype");
+	font-weight: 600;
+}
+@font-face {
+	font-family: "NeueHaas";
+	src: url("/fonts/NeueHaasUnicaPro-Light.otf") format("truetype");
+	font-weight: 400;
 }
 
 :root {

@@ -48,18 +48,13 @@
 .itemTwo:hover,
 .itemThree:hover {
 	cursor: pointer;
-	/* filter: brightness(0.9); */
 }
 
-/* .itemOne:hover h3,
-.itemTwo:hover h3,
-.itemThree:hover h3 {
-	text-decoration: underline;
-} */
 .itemOne h2,
 .itemTwo h2,
 .itemThree h2 {
 	font-size: var(--main-heading);
+	font-weight: 600;
 }
 
 .itemOne h3,
@@ -69,23 +64,6 @@
 	font-weight: 400;
 	margin-left: 1.5rem;
 }
-
-/* .shortArrow {
-	height: 20px;
-	position: absolute;
-	bottom: 0px;
-	left: 50%;
-	transform: translateX(-50%);
-	opacity: 0%;
-	transition: all 0.3s ease-in-out;
-}
-
-.itemOne:hover .shortArrow,
-.itemTwo:hover .shortArrow,
-.itemThree:hover .shortArrow {
-	opacity: 30%;
-	bottom: 10px;
-} */
 
 .textContainer {
 	margin: 0.5rem 0 0 2rem;
