@@ -2,7 +2,7 @@ import React from "react";
 
 import HeroNavigationCSS from "./HeroNavigation.module.css";
 
-import shortArrow from "../../../../public/assets/Arrow-2.svg";
+import shortArrow from "../../../assets/Arrow-2.svg";
 
 const HeroNavigation = React.forwardRef(({ handleScroll }, ref) => {
 	return (

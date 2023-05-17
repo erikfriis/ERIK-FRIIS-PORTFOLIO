@@ -1,10 +1,10 @@
 import React from "react";
 import AboutCss from "./About.module.css";
-import PortfolioPic from "../../../../public/assets/ERIKPORTFOLIO.jpg";
+import PortfolioPic from "../../../assets/ERIK-PORTFOLIO-COMPRESSED.jpeg";
 
-import LinkedInIcon from "../../../../public/assets/linkedinSVG.svg";
-import EmailIcon from "../../../../public/assets/envelopeSVG.svg";
-import GitHubIcon from "../../../../public/assets/github-mark.svg";
+import LinkedInIcon from "../../../assets/linkedinSVG.svg";
+import EmailIcon from "../../../assets/envelope-SVG.svg";
+import GitHubIcon from "../../../assets/github-mark.svg";
 
 const About = React.forwardRef((props, ref) => {
 	return (
