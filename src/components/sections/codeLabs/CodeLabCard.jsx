@@ -4,11 +4,13 @@ const CodeLabCard = ({ lab }) => {
 	return (
 		<div className={CodeLabCardCss.container}>
 			<a href={lab.deployedUrl} target="_blank">
-				<img src={lab.img} alt="" />
+				<img src={lab.img} alt="image showcasing the project" />
 				<div className={CodeLabCardCss.textContainer}>
-					<h2>{lab.title}</h2>
-					<h3>{lab.tech}</h3>
-					<p>{lab.description}</p>
+					<div className={CodeLabCardCss.textInnercontainer}>
+						<h2>{lab.title}</h2>
+						<h3>{lab.tech}</h3>
+						<p>{lab.description}</p>
+					</div>
 					<div className={CodeLabCardCss.linksContainer}>
 						<ul>
 							<li>

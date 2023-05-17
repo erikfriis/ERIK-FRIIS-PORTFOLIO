@@ -23,6 +23,13 @@
 .textContainer {
 	background-color: var(--secondery-textcolor);
 	padding: 1rem 1rem;
+	min-height: 15rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.textInnercontainer {
 }
 
 .textContainer h2 {

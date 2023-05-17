@@ -14,7 +14,11 @@ const About = React.forwardRef((props, ref) => {
 				<h4>EXPERIENCE AND BACKGROUND</h4>
 			</div>
 			<div className={AboutCss.card}>
-				<img src={PortfolioPic} alt="" className={AboutCss.PortfolioPic} />
+				<img
+					src={PortfolioPic}
+					alt="Portfolio images of Erik Friis"
+					className={AboutCss.PortfolioPic}
+				/>
 				<div className={AboutCss.paragraph}>
 					<h4>
 						Hi, my name is Erik Friis. I'm 27 year's old from Stockholm, Sweden.
@@ -43,13 +47,13 @@ const About = React.forwardRef((props, ref) => {
 					</span>
 					<ul className={AboutCss.contactList}>
 						<li>
-							<img src={EmailIcon} alt="" />
+							<img src={EmailIcon} alt="Eamil icon" />
 							<a href="mailto:erik.friis@hyperisland.se">
 								erik.friis@hyperisland.se
 							</a>
 						</li>
 						<li>
-							<img src={LinkedInIcon} alt="" />
+							<img src={LinkedInIcon} alt="Linkedin icon" />
 
 							<a
 								href="https://www.linkedin.com/in/erik-friis-8228a494/"
@@ -59,7 +63,7 @@ const About = React.forwardRef((props, ref) => {
 							</a>
 						</li>
 						<li>
-							<img src={GitHubIcon} alt="" />
+							<img src={GitHubIcon} alt="GitHub icon" />
 							<a href="https://github.com/erikfriis" target="_blank">
 								GitHub
 							</a>

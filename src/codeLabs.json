@@ -31,7 +31,7 @@
 		"id": 4,
 		"title": "PORTFOLIO PROJECT",
 		"tech": "REACT, CSS MODULES, FIGMA",
-		"description": "Designed in figma and developed in react.",
+		"description": "Designed in figma and developed in react. Lazy loading and compressed/progressive jpeg for better preformance on slow connections.",
 		"img": "/assets/Portfolio-project-img-compressed.png",
 		"deployedUrl": "",
 		"githubUrl": "https://github.com/erikfriis/song-notes"

@@ -9,7 +9,7 @@ const Arrow = React.forwardRef(({ showArrow, handleScroll }, ref) => {
 			ref={ref[0]}
 			onClick={() => handleScroll(ref[1][0])}
 		>
-			<img src={ArrowSvg} alt="" />
+			<img src={ArrowSvg} alt="Arrow icon to bring you to the next section" />
 		</div>
 	);
 });

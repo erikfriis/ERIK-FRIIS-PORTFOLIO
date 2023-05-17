@@ -3,6 +3,7 @@ import React from "react";
 import InstagramIcon from "../../../assets/instagramSVG.svg";
 import LinkedInIcon from "../../../assets/linkedinSVG.svg";
 import EmailIcon from "../../../assets/envelope-SVG.svg";
+import GitHubIcon from "../../../assets/github-mark.svg";
 
 const Footer = React.forwardRef(({}, ref) => {
 	return (
@@ -12,7 +13,7 @@ const Footer = React.forwardRef(({}, ref) => {
 				<ul className={FooterCss.contactList}>
 					<li>
 						<a href="mailto:erik.friis@hyperisland.se">
-							<img src={EmailIcon} alt="" />
+							<img src={EmailIcon} alt="Eamil icon" />
 							erik.friis@hyperisland.se
 						</a>
 					</li>
@@ -21,19 +22,19 @@ const Footer = React.forwardRef(({}, ref) => {
 							href="https://www.linkedin.com/in/erik-friis-8228a494/"
 							target="_blank"
 						>
-							<img src={LinkedInIcon} alt="" />
+							<img src={LinkedInIcon} alt="Linkedin icon" />
 							@erikfriis
 						</a>
 					</li>
 					<li>
 						<a href="https://github.com/erikfriis" target="_blank">
-							<img src={InstagramIcon} alt="" />
+							<img src={GitHubIcon} alt="Github icon" />
 							GitHub
 						</a>
 					</li>
 					<li>
 						<a href="https://www.instagram.com/samuraiisounds/" target="_blank">
-							<img src={InstagramIcon} alt="" />
+							<img src={InstagramIcon} alt="Instagram icon" />
 							@samuraiisounds
 						</a>
 					</li>
