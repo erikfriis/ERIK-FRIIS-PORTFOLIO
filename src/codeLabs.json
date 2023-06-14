@@ -1,5 +1,14 @@
 
 [
+		{
+		"id": 1,
+		"title": "MOTION SYNTH",
+		"tech": "REACT, TONE.JS, POSENET, OPENGL FRAGMENT SHADERS",
+		"description": "An experiment with pose tracking, visuals and sound. Lets you play a set of chords and control the complexity of each cord trsacking the x and y cordiantes of your hand.",
+		"img": "/assets/MOTION-SYNTH-COMPRESSED.png",
+		"deployedUrl": "https://shader-synth.netlify.app/",
+		"githubUrl": "https://github.com/staffanosp/tone_js_react"
+	},
 	{
 		"id": 1,
 		"title": "LEARNING SYNTHS LAB",
