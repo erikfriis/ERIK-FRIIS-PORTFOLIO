@@ -3,14 +3,14 @@
 		{
 		"id": 1,
 		"title": "MOTION SYNTH",
-		"tech": "REACT, TONE.JS, POSENET, OPENGL FRAGMENT SHADERS",
+		"tech": "REACT, TONE.JS, MOVENET, OPENGL",
 		"description": "An experiment with pose tracking, visuals and sound. Lets you play a set of chords and control the complexity of each cord trsacking the x and y cordiantes of your hand.",
 		"img": "/assets/MOTION-SYNTH-COMPRESSED.png",
 		"deployedUrl": "https://shader-synth.netlify.app/",
 		"githubUrl": "https://github.com/staffanosp/tone_js_react"
 	},
 	{
-		"id": 1,
+		"id": 2,
 		"title": "LEARNING SYNTHS LAB",
 		"tech": "REACT, TONE.JS, STYLED COMPONENTS, REACT ROUTER",
 		"description": "In this lab I have explored the web audio API using tone.js. The goal was to learn more about tone.js and to create an easy to use synthetzizer that anyone could interact with.",
@@ -19,7 +19,7 @@
 		"githubUrl": "https://github.com/erikfriis/learning-synths-lab"
 	},
 	{
-		"id": 2,
+		"id": 3,
 		"title": "SOUND PAD LAB",
 		"tech": "REACT, TONE.JS, CSS MODULES",
 		"description": "Another fun lab with tone.js and some math. ",
@@ -28,7 +28,7 @@
 		"githubUrl": "https://github.com/erikfriis/sound-pad-lab"
 	},
 	{
-		"id": 3,
+		"id": 4,
 		"title": "SONG NOTES",
 		"tech": "REACT, NODE.JS, EXPRESS, SWR",
 		"description": "Diving into node.js backend using express and sequelize. Exploring optimistic UI using SWR and more. Not yet deployed. Check out the code on GitHub. I am happy to showcase this project on request. ",
@@ -37,7 +37,7 @@
 		"githubUrl": "https://github.com/erikfriis/song-notes"
 	},
 	{
-		"id": 4,
+		"id": 5,
 		"title": "PORTFOLIO PROJECT",
 		"tech": "REACT, CSS MODULES, FIGMA",
 		"description": "Designed in figma and developed in react. Lazy loading and compressed/progressive jpeg for better preformance on slow connections.",
