@@ -15,12 +15,12 @@ const CodeLabCard = ({ lab }) => {
             <ul>
               <li>
                 <a href={lab.deployedUrl} target="_blank">
-                  {lab.id === 4 ? "No deployed version" : "Live Demo"}
-                </a>{" "}
+                  {lab.deployedUrl === "" ? "Demo on request" : "Live Demo"}
+                </a>
               </li>
               <li>
                 <a href={lab.githubUrl} target="_blank">
-                  GitHub
+                  {lab.githubUrl === "" ? "" : "GitHub"}
                 </a>
               </li>
             </ul>

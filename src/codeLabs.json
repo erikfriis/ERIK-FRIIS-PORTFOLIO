@@ -1,7 +1,16 @@
 
 [
-		{
+	{
 		"id": 1,
+		"title": "INTERNSHIP PROJECTS",
+		"tech": "REACT, TYPESCRIPT, CSS MODULES, STORYBOOK, REACT TESTING LIBRARY, FIGMA API, SVG SMIL ANIMTION",
+		"description": "Built a tool to generate and animate between complex patterns that is used as part of the new brand on the Epidemic Sound website and in the apps. Built, updated and maintanied components for the Epidemic Sound Design System. POC Figma Plugin.",
+		"img": "/assets/pattern-generator-project-img.jpg",
+		"deployedUrl": "",
+		"githubUrl": ""
+	},
+		{
+		"id": 2,
 		"title": "MOTION SYNTH",
 		"tech": "REACT, TONE.JS, MOVENET, OPENGL",
 		"description": "An experiment with pose tracking, visuals and sound. Lets you play a set of chords and control the complexity of each cord trsacking the x and y cordiantes of your hand.",
@@ -10,7 +19,7 @@
 		"githubUrl": "https://github.com/staffanosp/tone_js_react"
 	},
 	{
-		"id": 2,
+		"id": 3,
 		"title": "LEARNING SYNTHS LAB",
 		"tech": "REACT, TONE.JS, STYLED COMPONENTS, REACT ROUTER",
 		"description": "In this lab I have explored the web audio API using tone.js. The goal was to learn more about tone.js and to create an easy to use synthetzizer that anyone could interact with.",
@@ -19,7 +28,16 @@
 		"githubUrl": "https://github.com/erikfriis/learning-synths-lab"
 	},
 	{
-		"id": 3,
+		"id": 4,
+		"title": "DEMOTRACKER",
+		"tech": "REACT, TYPESCRIPT, NEXT.JS",
+		"description": "Version cotrol for music proof of concept. I am using it locally on my computer as a way to organize demos and song versions",
+		"img": "/assets/demotracker-project-img.jpg",
+		"deployedUrl": "https://demotracker.netlify.app/",
+		"githubUrl": "https://github.com/erikfriis/demotracker"
+	},
+	{
+		"id": 5,
 		"title": "SOUND PAD LAB",
 		"tech": "REACT, TONE.JS, CSS MODULES",
 		"description": "Another fun lab with tone.js and some math. ",
@@ -28,16 +46,16 @@
 		"githubUrl": "https://github.com/erikfriis/sound-pad-lab"
 	},
 	{
-		"id": 4,
+		"id": 6,
 		"title": "SONG NOTES",
 		"tech": "REACT, NODE.JS, EXPRESS, SWR",
 		"description": "Diving into node.js backend using express and sequelize. Exploring optimistic UI using SWR and more. Not yet deployed. Check out the code on GitHub. I am happy to showcase this project on request. ",
 		"img": "/assets/Songnotes-project-img-compressed.png",
-		"deployedUrl": "https://github.com/erikfriis/song-notes",
+		"deployedUrl": "",
 		"githubUrl": "https://github.com/erikfriis/song-notes"
 	},
 	{
-		"id": 5,
+		"id": 7,
 		"title": "PORTFOLIO PROJECT",
 		"tech": "REACT, CSS MODULES, FIGMA",
 		"description": "Designed in figma and developed in react. Lazy loading and compressed/progressive jpeg for better preformance on slow connections.",

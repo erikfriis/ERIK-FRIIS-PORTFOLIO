@@ -34,18 +34,20 @@ const About = React.forwardRef((props, ref) => {
           <span className={AboutCss.emphasize}>Warner Chappell </span>and{" "}
           <span className={AboutCss.emphasize}>Ultra Records.</span> <br />
           <br />
-          However, little over 2 years ago, I decided to broaden my skill set
-          and explore another tool for creating:{" "}
+          However, about 2 years ago, I decided to broaden my skill set and
+          explore another tool for creating:{" "}
           <span className={AboutCss.emphasize}>coding</span>. <br />
           <br />I applied to the Frontend Developer Program at{" "}
           <span className={AboutCss.emphasize}>Hyper Island</span>. Currently,I
           am doing a 6-month internship at{" "}
           <span className={AboutCss.emphasize}>Epidemic Sound</span>, where I
           work with their{" "}
-          <span className={AboutCss.emphasize}>design system</span> as well as
-          other interesting projects. I really enjoy to combine my creativity
-          and technical skills to create solutions as a front-end developer.{" "}
+          <span className={AboutCss.emphasize}>design system</span>. In an agile
+          environment, my team and I, has driven a rebranding effort, building,
+          and updating components and infrastructure for a seamless launch.{" "}
           <br />
+          <br />I love to combine my creativity and technical skills to create
+          solutions as a front-end developer. <br />
           <br />
           <ul className={AboutCss.contactList}>
             <li>
