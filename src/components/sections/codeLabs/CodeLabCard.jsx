@@ -14,9 +14,13 @@ const CodeLabCard = ({ lab }) => {
           <div className={CodeLabCardCss.linksContainer}>
             <ul>
               <li>
-                <a href={lab.deployedUrl} target="_blank">
-                  {lab.deployedUrl === "" ? "Demo on request" : "Live Demo"}
-                </a>
+                {lab.deployedUrl === "" ? (
+                  <div>Demo on request</div>
+                ) : (
+                  <a href={lab.deployedUrl} target="_blank">
+                    Live Demo
+                  </a>
+                )}
               </li>
               <li>
                 <a href={lab.githubUrl} target="_blank">
