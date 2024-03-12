@@ -4,7 +4,7 @@
 		"id": 1,
 		"title": "INTERNSHIP PROJECTS",
 		"tech": "REACT, TYPESCRIPT, CSS MODULES, STORYBOOK, REACT TESTING LIBRARY, FIGMA API, SVG SMIL ANIMTION",
-		"description": "Built a tool to generate and animate between complex patterns that is used as part of the new brand on the Epidemic Sound website and in the apps. Built, updated and maintanied components for the Epidemic Sound Design System. POC Figma Plugin.",
+		"description": "Built a tool to generate and animate between complex patterns that is used as part of the new brand on the Epidemic Sound website and in the apps. Built, updated and maintanied components for the Epidemic Sound Design System. Built POC Figma Plugin.",
 		"img": "/assets/pattern-generator-project-img.jpg",
 		"deployedUrl": "",
 		"githubUrl": ""
