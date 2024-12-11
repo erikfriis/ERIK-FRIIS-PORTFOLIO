@@ -21,7 +21,7 @@ const About = React.forwardRef((props, ref) => {
         />
         <div className={AboutCss.paragraph}>
           <h4>
-            Hi, my name is Erik Friis. I'm 28 year's old from Stockholm, Sweden.
+            Hi, my name is Erik Friis. I'm 29 year's old from Stockholm, Sweden.
             Let me tell you a bit about myself...
           </h4>
           Growing up I have always had a curiosity for learning new tools, video
@@ -34,20 +34,17 @@ const About = React.forwardRef((props, ref) => {
           <span className={AboutCss.emphasize}>Warner Chappell </span>and{" "}
           <span className={AboutCss.emphasize}>Ultra Records.</span> <br />
           <br />
-          However, about 2 years ago, I decided to broaden my skill set and
+          However, about 3 years ago, I decided to broaden my skill set and
           explore another tool for creating:{" "}
           <span className={AboutCss.emphasize}>coding</span>. <br />
-          <br />I applied to the Frontend Developer Program at{" "}
-          <span className={AboutCss.emphasize}>Hyper Island</span>. Currently,I
-          am doing a 6-month internship at{" "}
-          <span className={AboutCss.emphasize}>Epidemic Sound</span>, where I
-          work with their{" "}
-          <span className={AboutCss.emphasize}>design system</span>. In an agile
-          environment, my team and I, has driven a rebranding effort, building,
-          and updating components and infrastructure for a seamless launch.{" "}
-          <br />
+          <br />I studied at the Frontend Developer Program at{" "}
+          <span className={AboutCss.emphasize}>Hyper Island</span>. After
+          6-months at <span className={AboutCss.emphasize}>Epidemic Sound</span>
+          , where my team and I, where drving a rebrand effort, building, and
+          updating components and infrastructure for a seamless launch, I've
+          been trying my wings as a freelance frontend/shopify developer. <br />
           <br />I love to combine my creativity and technical skills to create
-          solutions as a front-end developer. <br />
+          frontend solutions and other fun projects. <br />
           <br />
           <ul className={AboutCss.contactList}>
             <li>
